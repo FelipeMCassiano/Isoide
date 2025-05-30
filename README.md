@@ -1,6 +1,13 @@
 # Isoide
 
-Isoide is a QrCode Generator made With c# and AWS S3
+Isoide is a QR Code generator written in C#, leveraging AWS S3 for storage.
+
+## Features
+
+- Generate QR Codes via a RESTful API.
+- Store and retrieve generated QR Codes from AWS S3 buckets.
+- Modular architecture with clear separation of concerns.
+- Ready for local development with Docker Compose support.
 
 ## Project Structure
 
@@ -25,16 +32,20 @@ Isoide is a QrCode Generator made With c# and AWS S3
 
 - [.NET SDK](https://dotnet.microsoft.com/download)
 - [Docker](https://www.docker.com/get-started) (for containerization)
+- AWS account with S3 access
 
-### Update appsettings.json
+### Configuration
+
+Update your `appsettings.json` with your AWS credentials and S3 bucket name:
+
 ```json
 "Settings": {
-    "Aws": {
-      "AccessKey": "{YOUR ACCESS KEY}",
-      "SecretKey": "{YOUR SECRET KEY}",
-      "BucketName": "{YOUR BUCKET NAME}"
-    }
+  "Aws": {
+    "AccessKey": "{YOUR ACCESS KEY}",
+    "SecretKey": "{YOUR SECRET KEY}",
+    "BucketName": "{YOUR BUCKET NAME}"
   }
+}
 ```
 
 ### Running Locally
@@ -50,22 +61,37 @@ Isoide is a QrCode Generator made With c# and AWS S3
    docker-compose up --build
    ```
 
-3. **Or run via .NET CLI:**
+   Or, **run via .NET CLI:**
    ```bash
    dotnet build Isoide.sln
    dotnet run --project src/Backend/Isoide.API
    ```
 
-### Testing
+### Running Tests
 
-Run tests with:
+Execute all tests with:
 ```bash
 dotnet test
 ```
 
+## API Usage
+
+After starting the application, the API endpoints are documented and accessible using Swagger UI at:
+
+[http://localhost:8000/swagger/index](http://localhost:8000/swagger/index)
+
+You can use Swagger to explore and test all available endpoints interactively.
+
 ## Contributing
 
-Contributions are welcome! Please open issues or pull requests for improvements, bug fixes, or new features.
+Contributions are welcome! To contribute:
+
+- Fork this repository.
+- Create a new branch for your feature or fix.
+- Commit your changes with clear messages.
+- Open a pull request describing your changes.
+
+Please open issues for suggestions, bugs, or feature requests.
 
 ## License
 
@@ -73,5 +99,9 @@ This project is licensed under the MIT License.
 
 ---
 
-> **Author:** Felipe Cassiano  
-> [GitHub Profile](https://github.com/FelipeMCassiano)
+**Author:** Felipe Cassiano  
+[GitHub Profile](https://github.com/FelipeMCassiano)
+
+---
+
+Let me know if you’d like further customizations or examples!
