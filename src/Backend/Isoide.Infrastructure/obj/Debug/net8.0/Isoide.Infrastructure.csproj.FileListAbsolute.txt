@@ -1,0 +1,16 @@
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/bin/Debug/net8.0/Isoide.Infrastructure.deps.json
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/bin/Debug/net8.0/Isoide.Infrastructure.dll
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/bin/Debug/net8.0/Isoide.Infrastructure.pdb
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/bin/Debug/net8.0/Isoide.Domain.dll
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/bin/Debug/net8.0/Isoide.Domain.pdb
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/obj/Debug/net8.0/Isoide.Infrastructure.csproj.AssemblyReference.cache
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/obj/Debug/net8.0/Isoide.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/obj/Debug/net8.0/Isoide.Infrastructure.AssemblyInfoInputs.cache
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/obj/Debug/net8.0/Isoide.Infrastructure.AssemblyInfo.cs
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/obj/Debug/net8.0/Isoide.Infrastructure.csproj.CoreCompileInputs.cache
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/obj/Debug/net8.0/Isoide.Infrastructure.sourcelink.json
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/obj/Debug/net8.0/Isoide.Infrastructure.csproj.CopyComplete
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/obj/Debug/net8.0/Isoide.Infrastructure.dll
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/obj/Debug/net8.0/refint/Isoide.Infrastructure.dll
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/obj/Debug/net8.0/Isoide.Infrastructure.pdb
+/home/felipe/projects/Isoide/src/Backend/Isoide.Infrastructure/obj/Debug/net8.0/ref/Isoide.Infrastructure.dll

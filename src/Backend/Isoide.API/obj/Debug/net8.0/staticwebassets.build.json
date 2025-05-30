@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IWxssh+bxm7Pa5OBSDfZbDpLlltC1TOzi+nhgZzOqRo=",
+  "Source": "Isoide.API",
+  "BasePath": "_content/Isoide.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

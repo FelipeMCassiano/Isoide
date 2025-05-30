@@ -1,0 +1,6 @@
+@Isoide.API_HostAddress = http://localhost:5251
+
+GET {{Isoide.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
