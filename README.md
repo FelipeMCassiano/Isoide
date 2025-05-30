@@ -79,7 +79,7 @@ dotnet test
 
 After starting the application, the API endpoints are documented and accessible using Swagger UI at:
 
-[http://localhost:8000/swagger/index](http://localhost:8000/swagger/index)
+[http://localhost:8000/swagger/index](http://localhost:8000/swagger/index.html)
 
 You can use Swagger to explore and test all available endpoints interactively.
 
