@@ -1,22 +1,22 @@
 version: "3.9"
-
 services:
     api:
         build: .
         ports:
-            - "8000:8000"
-
+            - 8000:8000
+        networks:
+            - default
     mongodb:
         image: mongo:latest
         hostname: mongodb
         environment:
-            MONGO_INITDB_ROOT_USERNAME: USER
             MONGO_INITDB_ROOT_PASSWORD: PASS
-
+            MONGO_INITDB_ROOT_USERNAME: USER
         ports:
-            - "27017:27017"
-        deploy:
-            resources:
-                limits:
-                    cpus: "1"
-                    memory: "500MB"
+            - 27017:27017
+        networks:
+            - default
+networks:
+    default:
+        driver: bridge
+        name: isoide
